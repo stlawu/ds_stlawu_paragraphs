@@ -42,7 +42,7 @@ function ds_stlawu_paragraphs_field_widget_form_alter(&$element, FormStateInterf
 
   // Change N/A to None to mimic the Align options in ckeditor.
   $field_definition = $context['items']->getFieldDefinition();
-  $alignment_fields = ['field_media_align', 'field_aside_align', ];
+  $alignment_fields = ['field_media_align', 'field_aside_align'];
 
   foreach ($alignment_fields as $alignment_field) {
     if ($field_definition->getName() == $alignment_field) {
@@ -54,7 +54,7 @@ function ds_stlawu_paragraphs_field_widget_form_alter(&$element, FormStateInterf
     }
   }
   // Change - None - to Default.
-  $palette_fields = ['field_section_palette_list', 'field_aside_palette_list', ];
+  $palette_fields = ['field_section_palette_list', 'field_aside_palette_list'];
   foreach ($palette_fields as $palette_field) {
     if ($field_definition->getName() == $palette_field) {
       $element['#options']['_none'] = t('Default');
