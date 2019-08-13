@@ -26,7 +26,7 @@
     "ds_stlawu_nodes": {
       "type": "git",
       "url": "https://github.com/cainaru/ds_stlawu_nodes"
-    },
+    }
   },
   "suggest": {
     "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding.",
