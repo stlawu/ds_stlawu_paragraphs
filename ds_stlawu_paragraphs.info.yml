@@ -7,6 +7,9 @@ dependencies:
   - drupal:ckeditor
   - entity_reference_revisions:entity_reference_revisions
   - ds_stlawu_media:ds_stlawu_media
+  - ds_stlawu_nodes:ds_stlawu_nodes
+  - ds_stlawu_nodes:ds_stlawu_article
+  - ds_stlawu_nodes:ds_stlawu_narrative
   - drupal:field
   - features:features
   - field_group:field_group

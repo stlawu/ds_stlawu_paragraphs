@@ -22,15 +22,19 @@
     "ds_stlawu_media": {
       "type": "git",
       "url": "https://github.com/cainaru/ds_stlawu_media"
-    }
+    },
+    "ds_stlawu_nodes": {
+      "type": "git",
+      "url": "https://github.com/cainaru/ds_stlawu_nodes"
+    },
   },
   "suggest": {
     "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding.",
-    "cainaru/ds_stlawu_nodes": "Recommended for pre-packaged content types.",
     "npm-asset/sortablejs": "Recommended for supporting drag-and-drop paragraphs.",
   },
   "require": {
     "cainaru/ds_stlawu_media": "dev-master",
+    "cainaru/ds_stlawu_nodes": "dev-master",
     "drupal/core": "~8",
     "drupal/entity_reference_revisions": "^1.6",
     "drupal/features": "^3.8",
