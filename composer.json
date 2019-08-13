@@ -30,7 +30,7 @@
   },
   "suggest": {
     "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding.",
-    "npm-asset/sortablejs": "Recommended for supporting drag-and-drop paragraphs.",
+    "npm-asset/sortablejs": "Recommended for supporting drag-and-drop paragraphs."
   },
   "require": {
     "cainaru/ds_stlawu_media": "dev-master",
