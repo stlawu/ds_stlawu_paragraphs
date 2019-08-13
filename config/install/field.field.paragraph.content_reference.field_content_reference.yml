@@ -4,7 +4,6 @@ dependencies:
   config:
     - field.storage.paragraph.field_content_reference
     - node.type.article
-    - node.type.narrative
     - paragraphs.paragraphs_type.content_reference
 id: paragraph.content_reference.field_content_reference
 field_name: field_content_reference
@@ -21,7 +20,6 @@ settings:
   handler_settings:
     target_bundles:
       article: article
-      narrative: narrative
     sort:
       field: _none
     auto_create: false
