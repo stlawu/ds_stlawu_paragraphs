@@ -33,6 +33,7 @@
     "drupal/entity_reference_revisions": "^1.6",
     "drupal/features": "^3.8",
     "drupal/paragraphs": "^1.8",
+    "drupal/viewsreference": "^2.0",
     "oomphinc/composer-installers-extender": "^1.1"
   }
 }
