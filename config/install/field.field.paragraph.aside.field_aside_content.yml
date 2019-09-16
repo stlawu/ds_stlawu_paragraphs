@@ -8,6 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.grid_row
     - paragraphs.paragraphs_type.media
     - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.view
   module:
     - entity_reference_revisions
 id: paragraph.aside.field_aside_content
@@ -29,6 +30,7 @@ settings:
       media: media
       grid_row: grid_row
       content_reference: content_reference
+      view: view
     target_bundles_drag_drop:
       text:
         enabled: true
@@ -42,13 +44,16 @@ settings:
       content_reference:
         enabled: true
         weight: -12
-      aside:
+      view:
+        enabled: true
         weight: -11
-        enabled: false
-      grid_column:
+      aside:
         weight: -10
         enabled: false
-      section:
+      grid_column:
         weight: -9
+        enabled: false
+      section:
+        weight: -8
         enabled: false
 field_type: entity_reference_revisions
