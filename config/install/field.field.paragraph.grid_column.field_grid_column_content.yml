@@ -28,6 +28,7 @@ settings:
     target_bundles:
       text: text
       media: media
+      aside: aside
       content_reference: content_reference
       view: view
     target_bundles_drag_drop:
